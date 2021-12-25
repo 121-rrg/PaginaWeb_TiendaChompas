@@ -10,7 +10,7 @@ mysql = MySQL()
 app.secret_key = 'secreto'
 #MySQL Configuracion
 app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'Iloveforyou'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'Contraseña'
 app.config['MYSQL_DATABASE_DB'] = 'tienda_chompa'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
